@@ -1,0 +1,5 @@
+Here are some basic commnad you could follow to perform the iterative hybrid assembly/binning method
+
+#### If you have too much long/short reads, please subsampling the dataset, this strategy, on one side, will short the running time, on the other side, lower the complexity of the system to some degree.
+
+## Subsampling datasets using seqkit
