@@ -7,7 +7,7 @@
 
 * Here we provided some basic bash scripts, so the beginner could be easily followed.
 
-* If you are using the IHA workflow for the genome reconstruction, please cite the corresponding papers, particullary the paper described the Unicycler (https://github.com/rrwick/Unicycler)!
+* If you are using the IHA workflow for the genome reconstruction, please cite the corresponding papers, particullary the paper described the [Unicycler](https://github.com/rrwick/Unicycler)!
 
 Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads
 
