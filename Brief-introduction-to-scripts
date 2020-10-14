@@ -4,10 +4,11 @@ Here are some basic commnad you could follow to perform the iterative hybrid ass
 
 ### Step 01: Data preparation
 ## Subsampling datasets using seqkit; if not too much reads, you might skip this step
+```
 cat Raw_1.fastq | seqkit sample -s 11 -n 20000000 > Raw_sub_1.fastq
 cat Raw_2.fastq | seqkit sample -s 11 -n 20000000 > Raw_sub_2.fastq
 cat Raw-lr.fastq | seqkit sample -s 11 -n XXXXXXXX > Raw_sub-lr.fastq
-## Also, please prepare the all seq ID from the long reads and sort, named LRs.ID.sorted
+```<br>## Also, please prepare the all seq ID from the long reads and sort, named LRs.ID.sorted
 
 ### Step 02: Hybrid assembly using Unicycler
 unicycler-runner.py --no_correct -1 Raw_sub_1.fastq -2 Raw_sub_2.fastq -l Raw_sub-lr.fastq -t 40 -o H1-unicycler --min_fasta_length 1000
