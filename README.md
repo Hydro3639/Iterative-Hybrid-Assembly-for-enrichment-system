@@ -5,7 +5,7 @@
 
 * As Unicycler is designed for bacterial isolates, the Unicycler author expressly cautions against the use of this assembler for the analysis of data other than bacterial isolates. So we first established the feasibility of using Unicycler to retrieve genomes by different mock datasets ([ZymoBIOMICS Microbial Community Standards (**EVEN**), Nicholls et. al., 2019)](https://academic.oup.com/gigascience/article/8/5/giz043/5486468), [Human Microbiome Project (**HMP**), Kuleshov et. al., 2014](https://www.nature.com/articles/nbt.3416) and [**GIS20**, Bertrand et al., 2019](https://www.nature.com/articles/s41587-019-0191-2)). The evaluation results presented the robustness of this assembly tool. However, if you applied Unicycler to assemble high-complexity metagenomes, e.g., soil or activated sludge samples, the performance might be not so positive due to the algorithms and assumptions of Unicycler and SPAdes. We have also developed the hybrid assembly workflow for highly complex environmental samples and integrated with this iterative hybrid assembly/binning method (`will come soon`).
 
-* Here we provided some basic bash scripts, so it would be easier for the beginer to follow.
+* Here we provided some basic [`bash scripts`](https://github.com/Hydro3639/Iterative-Hybrid-Assembly-for-enrichment-system/blob/master/Brief-introduction-to-scripts.md), so it would be easier for the beginer to follow.
 
 * If you are using the IHA workflow for the genome reconstruction, please cite the corresponding reference papers, particullary the paper described the [Unicycler](https://github.com/rrwick/Unicycler)!
 
