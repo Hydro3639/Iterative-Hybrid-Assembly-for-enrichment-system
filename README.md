@@ -13,7 +13,7 @@
   * [MetaWRAP—a flexible pipeline for genome-resolved metagenomic data analysis](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1)
   * [Minimap2: pairwise alignment for nucleotide sequences](https://academic.oup.com/bioinformatics/article/34/18/3094/4994778)
   * [Fast gapped-read alignment with Bowtie 2](https://www.nature.com/articles/nmeth.1923)
-  * [***seqtk***][https://github.com/lh3/seqtk]<br>(will update other papers soon)
+  * [***seqtk***](https://github.com/lh3/seqtk)
 
 ## Citing our paper
 * If you found IHA workflow usefull in your research, a citation would be appreciated! <br>High-Quality Bacterial Genomes of a Partial-Nitritation/Anammox System by an Iterative Hybrid Assembly Method
