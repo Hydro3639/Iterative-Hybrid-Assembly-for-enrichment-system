@@ -9,9 +9,9 @@
 
 * If you are using the IHA workflow for the genome reconstruction, please cite the corresponding reference papers, particullary the paper described the [Unicycler](https://github.com/rrwick/Unicycler)!
 
-  * Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads <br>
-  * MetaWRAP—a flexible pipeline for genome-resolved metagenomic data analysis
-  (will update other papers sooner)
+  * [Unicycler: Resolving bacterial genome assemblies from short and long sequencing reads](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005595) <br>
+  * [MetaWRAP—a flexible pipeline for genome-resolved metagenomic data analysis](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1)
+  (will update other papers soon)
 
 ## Citing our paper
 * If you found IHA workflow usefull in your research, a citation would be appreciated! <br>High-Quality Bacterial Genomes of a Partial-Nitritation/Anammox System by an Iterative Hybrid Assembly Method
