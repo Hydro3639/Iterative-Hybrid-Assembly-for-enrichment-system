@@ -17,4 +17,4 @@
 
 ## Citing our paper
 * If you found IHA workflow usefull in your research, a citation would be appreciated! <br>High-Quality Bacterial Genomes of a Partial-Nitritation/Anammox System by an Iterative Hybrid Assembly Method
-[Back to Top](#Iterative-Hybrid-Assembly-for-the-Enrichment-Ecoystem)
+<br>[Back to Top](#Iterative-Hybrid-Assembly-for-the-Enrichment-Ecoystem)
