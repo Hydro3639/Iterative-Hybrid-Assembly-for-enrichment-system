@@ -29,7 +29,7 @@ metawrap bin_refinement -o BIN_REFINEMENT -c 50 -x 10 -t 40 -A INITIAL_BINNING/m
 \# Long reads mapping and filtration
 ```
 minimap2 -x map-ont -t 40 H1-qualified.fasta Raw_sub-lr.fastq > H1-qualified-mapping.lr.paf
-awk -F'[\t:]' '($4-$3+1)/$2 >=0.80 && $15=="P" && $27<0.20 {print $1}' *.lr.paf > filtered_80_80-lr.ID
+awk -F'[\t:]' '($4-$3+1)/$2 >=0.80 && $27<0.20 {print $1}' *.lr.paf > filtered_80_80-lr.ID
 cat filtered_80_80-lr.ID | sort > filtered_80_80-lr.ID.sorted ## use --parallel=XX to short the running time if many sequences generated
 comm -13 filtered_80_80-lr.ID.sorted LRs.ID.sorted > H2-LRs.ID
 seqtk subseq Raw-lr.fastq H2-LRs.ID > H2-LRs.fastq
