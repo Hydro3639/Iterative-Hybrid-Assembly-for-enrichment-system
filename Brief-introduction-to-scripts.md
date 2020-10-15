@@ -1,4 +1,5 @@
-## Here are some basic commnad you could follow to perform the iterative hybrid assembly/binning method
+### Introduction
+\# Here are some basic commnad you could follow to perform the iterative hybrid assembly/binning method
 
 \# If you have too much long/short reads, please subsampling the dataset, this strategy, on one side, will short the running time, on the other side, lower the complexity of the system to some degree.
 
@@ -24,7 +25,7 @@ metawrap bin_refinement -o BIN_REFINEMENT -c 50 -x 10 -t 40 -A INITIAL_BINNING/m
 \# High-quality and High-contiguity MAGs are recommented to be collected. e.g., completeness > 90% && contamination < 5% && contig count <=5
 \# cat all the qualified MAGs as one fasta file, e.g., named H1-qualified.fasta
 
-* ### After collection of the qualified MAGs. Data preparation in the next cycle should be performed
+* #### After collection of the qualified MAGs. Data preparation in the next cycle should be performed
 #### Step 01: Data preparation
 \# Long reads mapping and filtration
 ```
@@ -38,6 +39,6 @@ seqtk subseq Raw-lr.fastq H2-LRs.ID > H2-LRs.fastq
 ```
 bowtie2 -x H1-qualified.fasta -1 Raw_1.fastq -2 Raw_2.fastq -p 20 --very-sensitive -S H1.tmp.sam --un-conc H2-pairs.fastq && rm *sam
 ```
-* ### then follow the same Step 02 and the following in the initial step
-[Back to Top](# Here)
+* #### then follow the same Step 02 and the following in the initial step
+[Back to Top](# Introduction)
 
