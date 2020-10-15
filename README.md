@@ -1,5 +1,5 @@
-# Iterative-Hybrid-Assembly-for-the-Enrichment-Ecoystem
-#### Unicycler based iterative hybrid assembly for high-quality MAGs from `enrichment ecosystems`
+## Iterative-Hybrid-Assembly-for-the-Enrichment-Ecoystem
+##### Unicycler based iterative hybrid assembly for high-quality MAGs from `enrichment ecosystems`
 
 * IHA (Iterative Hybrid Assembly) is a Unicycler-based workflow for high-quality and high-contiguity genome reconstruction from `the enrichment system`. The proposed Iterative method requires that high-quality and high-contiguity genomes could be retrieved from the initial hybrid assembly using Unicycler. If MAGs are highly fragmented, other assemblers might be considered. Notably, compared with short-read assembly and binning process, the hyrbid assembly process might take longer time (2-3x). However, the time for hybrid assembly process in the following cycle will shorter as the dataset is decreasing. Normally, A workstaion with 40 threads and 256 Gbp RAM is good enough to handle the process.
 
@@ -15,6 +15,6 @@
   * [Fast gapped-read alignment with Bowtie 2](https://www.nature.com/articles/nmeth.1923)
   * [seqtk](https://github.com/lh3/seqtk)
 
-## Citing our paper
+#### Citing our paper
 * If you found IHA workflow usefull in your research, a citation would be appreciated! <br>High-Quality Bacterial Genomes of a Partial-Nitritation/Anammox System by an Iterative Hybrid Assembly Method
 <br>[Back to Top](#Iterative-Hybrid-Assembly-for-the-Enrichment-Ecoystem)
