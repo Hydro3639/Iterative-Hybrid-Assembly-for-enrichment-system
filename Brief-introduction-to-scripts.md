@@ -37,7 +37,7 @@ seqtk subseq Raw-lr.fastq H2-LRs.ID > H2-LRs.fastq
 ```
 \# Short reads mapping and output unaligned paired reads
 ```
-bowtie2-build H1-qualified.fasta H1-qualified.fasta --threds 20
+bowtie2-build H1-qualified.fasta H1-qualified.fasta --threads 20
 bowtie2 -x H1-qualified.fasta -1 Raw_1.fastq -2 Raw_2.fastq -p 20 --very-sensitive -S H1.tmp.sam --un-conc H2-pairs.fastq && rm *sam
 ```
 * #### then follow the same Step 02 - Step 04 to reconstruct more (near-) complete genomes from the ecosystem.
