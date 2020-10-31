@@ -16,5 +16,5 @@
   * [seqtk](https://github.com/lh3/seqtk) (https://github.com/lh3/seqtk)
   * [SeqKit: a cross-platform and ultrafast toolkit for FASTA/Q file manipulation](https://github.com/shenwei356/seqkit)
 #### Citing our paper
-* If you found IHA workflow usefull in your research, a citation would be appreciated! <br>High-Quality Bacterial Genomes of a Partial-Nitritation/Anammox System by an Iterative Hybrid Assembly Method
+* If you found IHA workflow useful in your research, a citation would be appreciated! <br>High-Quality Bacterial Genomes of a Partial-Nitritation/Anammox System by an Iterative Hybrid Assembly Method
 <br>[Back to Top](#Iterative-Hybrid-Assembly-for-the-Enrichment-Ecoystem)
