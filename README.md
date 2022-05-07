@@ -1,4 +1,6 @@
 ## Iterative-Hybrid-Assembly-for-the-Enrichment-Ecoystem
+### Note
+Although Unicycler is a well-performed assembler when you have deep-sequenced short reads and higher error rate long reads, with the continuous improvement of Nanopore sequencing accuracy and throughput, we prefer a long-read-first framework, please consider to use [`NanoPhase`](https://github.com/Hydro3639/NanoPhase) (with --hybird parameter) 
 ### Unicycler-based iterative hybrid assembly for high-quality MAGs from `enrichment ecosystems`
 
 * IHA (Iterative Hybrid Assembly) is a Unicycler-based workflow for high-quality and high-contiguity genome reconstruction from `the enrichment system`. The proposed Iterative method requires that high-quality and high-contiguity genomes could be retrieved from the initial hybrid assembly using Unicycler. If MAGs are highly fragmented, other assemblers might be considered. Notably, compared with short-read assembly and binning process, the hyrbid assembly process might take longer time (2-3x). It depends on the complexity of your metagenomic dataset, if too much time consumed, please consider subsampling your short and/or long read dataset. However, the job for hybrid assembly process will be finished for a shorter time as the metagenomic dataset is simplifying. Normally, A workstaion with 40 threads and 256 Gbp RAM is good enough to handle the process.
